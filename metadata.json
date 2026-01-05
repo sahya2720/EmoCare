@@ -1,0 +1,7 @@
+{
+  "name": "Lumi - Your Emotional Wellbeing Companion",
+  "description": "An AI-powered emotional sanctuary that uses sentiment analysis and facial recognition to provide empathetic support and wellbeing suggestions.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
