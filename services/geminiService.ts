@@ -2,7 +2,9 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { Message } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({
+  apiKey: import.meta.env.VITE_GEMINI_API_KEY,
+});
 
 const SYSTEM_INSTRUCTION = `You are Lumi, a cute, friendly, and empathetic emotional wellbeing companion. 
 Your goal is to listen to the user, provide emotional support, and suggest gentle wellbeing exercises. 
